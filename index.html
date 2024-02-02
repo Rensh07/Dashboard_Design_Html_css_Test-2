@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dashboard Design</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-main">
+            <div class="first-part">
+                <ion-icon class="icon" name="chatbox-outline"></ion-icon>
+                <p class="logo-text">SKS Funding</p>
+            </div>
+            <div class="second-part">
+                <button class="btn btn-primary">Need Help</button>
+                <div class="notification">
+                    <ion-icon class="n-icon" name="notifications-outline"></ion-icon>
+                </div>
+                <div class="user-logo">
+                    <img class="u-l" src="img/main-user.jpg" alt="user logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="profile">
+            <div class="profile-section">
+                <div class="profile-photo"></div>
+                <div class="profile-info">
+                    <h1 class="heading-primary">Hi, Emma good morning 👋</h1>
+                    <div class="info">
+                        <p class="info-heading pih">Email -&nbsp;</p>
+                        <p class="info-title">akp.emma1231@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-heading pih">Phone -&nbsp;</p>
+                        <p class="info-title">+91-8897584546</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-heading pih">Address -&nbsp;</p>
+                        <p class="info-title">Po Box 2103 Linden, NJ 07036 (USA)</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-heading pih">Plan -&nbsp;</p>
+                        <p class="info-title">$100</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-heading pih">Joind -&nbsp;</p>
+                        <p class="info-title">Mon 22nd Feb 2019</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-section">
+                <div class="profile-progress">
+                  <div class="progress flex-center">
+                    <div class="progress-min flex-center">
+                      <p class="progress-text">75%</p>
+                    </div>
+                  </div>
+                  <div class="progress-info">
+                    <p class="progress-title">
+                      Profile-completion
+                    </p>
+                    <p class="progress-title-sm">
+                      Please complete profile
+                    </p>
+                    <button class="btn btn-progress">
+                      Complete
+                    </button>
+                  </div>
+                </div>
+                <span class="camara-icon-sec">
+                  <ion-icon class="camara-icon" name="camera-outline"></ion-icon>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-section grid grid-col-custom-2">
+        <div class="family">
+            <div class="family-title">
+                <p>About my family</p>
+                <span>&#8230;</span>
+            </div>
+            <div class="family-person">
+                <p class="family-person-title">
+                    Covered persons
+                </p>
+                <div class="family-person-img">
+                    <img src="img/w-1.jpg" alt="" class="multi-img">
+                    <img src="img/w-2.jpeg" alt="" class="multi-img">
+                </div>
+            </div>
+
+            <div class="family-person">
+                <p class="family-person-title">
+                    beneficiary persons
+                </p>
+                <div class="family-person-img">
+                    <img src="img/w-3.jpg" alt="" class="multi-img">
+                    <img src="img/w-4.jpg" alt="" class="multi-img">
+                    <img src="img/w-5.jpg" alt="" class="multi-img">
+                </div>
+            </div>
+
+            <div class="family-person">
+                <p class="family-person-title">
+                    emerhency persons
+                </p>
+                <div class="family-person-img">
+                    <img src="img/w-6.jpg" alt="" class="multi-img">
+                    <img src="img/w-9.jpg" alt="" class="multi-img">
+                    <img src="img/w-10.jpeg" alt="" class="multi-img">
+                    <img src="img/w-1.jpg" alt="" class="multi-img">
+                </div>
+            </div>
+
+            <div class="family-title">
+                <p>About me</p>
+                <span>&#8230;</span>
+            </div>
+
+            <div class="myself">
+                <div class="my-info">
+                    <p class="my-heading">Email</p>
+                    <p class="my-title">akp.emma1231@gmail.com</p>
+                </div>
+                <div class="my-info">
+                    <p class="my-heading">Phone</p>
+                    <p class="my-title">+91-8897584546</p>
+                </div>
+                <div class="my-info">
+                    <p class="my-heading">Address</p>
+                    <p class="my-title">Po Box 2103 Linden, NJ 07036 (USA)</p>
+                </div>
+                <div class="my-info">
+                    <p class="my-heading">Plan</p>
+                    <p class="my-title">$100</p>
+                </div>
+                <div class="my-info">
+                    <p class="my-heading">Joind</p>
+                    <p class="my-title">Mon 22nd Feb 2019</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="half-section">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-items flex-center"><ion-icon name="home-outline"></ion-icon><p>dashboard</p></li>
+                  <li class="nav-items">New claims</li>
+                  <li class="nav-items">Completed claims</li>
+                  <li class="nav-items">Past claims</li>
+                  <li class="nav-items">Members</li>
+                  <li class="nav-items">My claims</li>
+                </ul>
+                <div class="nav-buttom flex-center">
+                  <button class="btn btn-secondary flex-center">
+                    <ion-icon name="unlink-outline" class="nav-btn-icon"></ion-icon><p>CLAIM</p>
+                  </button>
+                </div>
+            </nav>
+
+            <div class="claims-detais">
+                <div class="grid grid-col-3 margin-bottom-md">
+                  <div class="child claims ">
+                    <div class="number">23</div>
+                    <div class="claim-detail">
+                      <div class="claim-title">New claims</div>
+                      <div class="claim-gallery">
+                        <img class="claim-img" src="img/w-4.jpg" alt="this is claim img">
+                        <img class="claim-img" src="img/w-5.jpg" alt="this is claim img">
+                        <img class="claim-img" src="img/w-6.jpg" alt="this is claim img">
+                        <span class="claim-img claim-custom-img flex-center ">32+</span>
+                      </div>
+                    </div>
+                </div>
+                  <div class="child claims ">
+                    <div class="number">76</div>
+                    <div class="claim-detail">
+                      <div class="claim-title">New Members</div>
+                      <div class="claim-gallery">
+                        <img class="claim-img" src="img/w-4.jpg" alt="this is claim img">
+                        <img class="claim-img" src="img/w-5.jpg" alt="this is claim img">
+                        <img class="claim-img" src="img/w-6.jpg" alt="this is claim img">
+                        <span class="claim-img  claim-custom-img flex-center">32+</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="child claims">
+                    <div class="number">102</div>
+                    <div class="claim-detail">
+                      <div class="claim-title">Total claims</div>
+                      <div class="claim-gallery">
+                        <img class="claim-img" src="img/w-4.jpg" alt="this is claim img">
+                        <img class="claim-img" src="img/w-5.jpg" alt="this is claim img">
+                        <img class="claim-img" src="img/w-6.jpg" alt="this is claim img">
+                        <span class="claim-img  claim-custom-img flex-center">32+</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="grid grid-col-3 last-child">
+                  <div class="activity-schedule-profile">
+
+                  <div class="child-profile grid grid-col-2-min">
+                    <div class="child-per-img"><img src="img/w-1.jpg" alt="person photo"></div>
+                    <div class="child-profile-details">
+                      <p class="heading-primary profile-name">Amelia kimani</p>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="calendar-clear-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Field -&nbsp;</p>
+                        <p class="info-title p-i-t">Thu, Jul 10, 2018 7:30 PM EDT</p>
+                      </div>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="calendar-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Due -&nbsp;</p>
+                        <p class="info-title p-i-t">Wed, Jul 23, 2019 12:30 PM</p>
+                      </div>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="location-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Address -&nbsp;</p>
+                        <p class="info-title p-i-t">Hillside Rd, Hiranandani...</p>
+                      </div>
+                    </div>
+                    <button class="btn position-btn btn-progress  flex-center"><ion-icon name="unlink-outline"
+                      class="navigation-btn-icon"></ion-icon>
+                    <p>Pay</p>
+                  </button>
+                  </div>
+
+                  <div class="child-profile grid grid-col-2-min">
+                    <div class="child-per-img"><img src="img/w-3.jpg" alt="person photo"></div>
+                    <div class="child-profile-details">
+                      <p class="heading-primary profile-name">Genevieve</p>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="calendar-clear-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Field -&nbsp;</p>
+                        <p class="info-title p-i-t">Thu, Jul 10, 2018 7:30 PM EDT</p>
+                      </div>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="calendar-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Due -&nbsp;</p>
+                        <p class="info-title p-i-t">Wed, Jul 23, 2019 12:30 PM</p>
+                      </div>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="location-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Address -&nbsp;</p>
+                        <p class="info-title p-i-t">Hillside Rd, Hiranandani...</p>
+                      </div>
+                    </div>
+                    <button class="btn position-btn btn-progress  flex-center"><ion-icon name="unlink-outline"
+                      class="navigation-btn-icon"></ion-icon>
+                    <p>Pay</p>
+                  </button>
+                  </div>
+
+                  <div class="child-profile grid grid-col-2-min">
+                    <div class="child-per-img"><img src="img/w-2.jpeg" alt="person photo"></div>
+                    <div class="child-profile-details">
+                      <p class="heading-primary profile-name">Theodore wachira</p>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="calendar-clear-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Field -&nbsp;</p>
+                        <p class="info-title p-i-t">Thu, Jul 10, 2018 7:30 PM EDT</p>
+                      </div>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="calendar-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Due -&nbsp;</p>
+                        <p class="info-title p-i-t">Wed, Jul 23, 2019 12:30 PM</p>
+                      </div>
+                      <div class="info p-i">
+                        <ion-icon class="profile-info-icon" name="location-outline"></ion-icon>
+                        <p class="info-heading p-i-h">Address -&nbsp;</p>
+                        <p class="info-title p-i-t">Hillside Rd, Hiranandani...</p>
+                      </div>
+                    </div>
+                    <button class="btn position-btn btn-progress  flex-center"><ion-icon name="unlink-outline"
+                      class="navigation-btn-icon"></ion-icon>
+                    <p>Pay</p>
+                  </button>
+                  </div>
+  
+                    <div class="child-profile grid grid-col-2-min">
+                      <div class="child-per-img"><img src="img/w-6.jpg" alt="person photo"></div>
+                      <div class="child-profile-details">
+                        <p class="heading-primary profile-name">Genevieve</p>
+                        <div class="info p-i">
+                          <ion-icon class="profile-info-icon" name="calendar-clear-outline"></ion-icon>
+                          <p class="info-heading p-i-h">Field -&nbsp;</p>
+                          <p class="info-title p-i-t">Thu, Jul 10, 2018 7:30 PM EDT</p>
+                        </div>
+                        <div class="info p-i">
+                          <ion-icon class="profile-info-icon" name="calendar-outline"></ion-icon>
+                          <p class="info-heading p-i-h">Due -&nbsp;</p>
+                          <p class="info-title p-i-t">Wed, Jul 23, 2019 12:30 PM</p>
+                        </div>
+                        <div class="info p-i">
+                          <ion-icon class="profile-info-icon" name="location-outline"></ion-icon>
+                          <p class="info-heading p-i-h">Address -&nbsp;</p>
+                          <p class="info-title p-i-t">Hillside Rd, Hiranandani...</p>
+                        </div>
+                      </div>
+                      <button class="btn position-btn btn-progress  flex-center"><ion-icon name="unlink-outline"
+                        class="navigation-btn-icon"></ion-icon>
+                      <p>Pay</p>
+                    </button>
+                    </div>
+  
+                    <div class="child-profile grid grid-col-2-min">
+                      <div class="child-per-img"><img src="img/w-7.jpg" alt="person photo"></div>
+                      <div class="child-profile-details">
+                        <p class="heading-primary profile-name">Theodore wachira</p>
+                        <div class="info p-i">
+                          <ion-icon class="profile-info-icon" name="calendar-clear-outline"></ion-icon>
+                          <p class="info-heading p-i-h">Field -&nbsp;</p>
+                          <p class="info-title p-i-t">Thu, Jul 10, 2018 7:30 PM EDT</p>
+                        </div>
+                        <div class="info p-i">
+                          <ion-icon class="profile-info-icon" name="calendar-outline"></ion-icon>
+                          <p class="info-heading p-i-h">Due -&nbsp;</p>
+                          <p class="info-title p-i-t">Wed, Jul 23, 2019 12:30 PM</p>
+                        </div>
+                        <div class="info p-i">
+                          <ion-icon class="profile-info-icon" name="location-outline"></ion-icon>
+                          <p class="info-heading p-i-h">Address -&nbsp;</p>
+                          <p class="info-title p-i-t">Hillside Rd, Hiranandani...</p>
+                        </div>
+                      </div>
+                      <button class="btn position-btn btn-progress  flex-center"><ion-icon name="unlink-outline"
+                        class="navigation-btn-icon"></ion-icon>
+                      <p>Pay</p>
+                    </button>
+                    </div>
+                  </div>
+
+
+                    <div class="activity-section">
+                      <p class="activity">Activity</p>
+                      <div class="activity-schedule">
+                        <!-- <div class="activity-scroll"></div> -->
+          
+                        <div class="activity-list">
+                          <div class="avtivity-dot"></div>
+                          <div class="activity-details">
+                            <p class="avtivity-detail-title">
+                              Claimed $20000
+                            </p>
+                            <p class="activity-detail-desc">
+                              23 members are got claimed in washington DC.
+                            </p>
+                            <p class="activity-time">05:40pm</p>
+                          </div>
+                        </div>
+                        <div class="activity-list">
+                          <div class="avtivity-dot yellow"></div>
+                          <div class="activity-details">
+                            <p class="avtivity-detail-title">
+                              102 new members
+                            </p>
+                            <p class="activity-detail-desc">
+                              We have 102 registrations check out their profiles
+                            </p>
+                            <p class="activity-time">05:40pm</p>
+                          </div>
+                        </div>
+                        <div class="activity-list">
+                          <div class="avtivity-dot green"></div>
+                          <div class="activity-details">
+                            <p class="avtivity-detail-title">
+                              Claimed $20000
+                            </p>
+                            <p class="activity-detail-desc">
+                              23 members are got claimed in washington DC.
+                            </p>
+                            <p class="activity-time">05:40pm</p>
+                          </div>
+                        </div>
+                        <div class="activity-list">
+                          <div class="avtivity-dot"></div>
+                          <div class="activity-details">
+                            <p class="avtivity-detail-title">
+                              102 new members
+                            </p>
+                            <p class="activity-detail-desc">
+                              We have 102 registrations check out their profiles
+                            </p>
+                            <p class="activity-time">05:40pm</p>
+                          </div>
+                        </div>
+                        <div class="activity-list">
+                          <div class="avtivity-dot yellow"></div>
+                          <div class="activity-details">
+                            <p class="avtivity-detail-title">
+                              3 claims are waiting
+                            </p>
+                            <p class="activity-detail-desc">
+                              Please contribute them ,they are waiting for your help
+                            </p>
+                            <p class="activity-time">05:40pm</p>
+                          </div>
+                        </div>
+                        <div class="activity-list">
+                          <div class="avtivity-dot green"></div>
+                          <div class="activity-details">
+                            <p class="avtivity-detail-title">
+                              102 new members
+                            </p>
+                            <p class="activity-detail-desc">
+                              We have 102 registrations check out their profiles
+                            </p>
+                            <p class="activity-time">05:40pm</p>
+                          </div>
+                        </div>
+                        <div class="activity-list">
+                          <div class="avtivity-dot"></div>
+                          <div class="activity-details">
+                            <p class="avtivity-detail-title">
+                              Claimed $20000
+                            </p>
+                            <p class="activity-detail-desc">
+                              23 members are got claimed in washington DC.
+                            </p>
+                            <p class="activity-time">05:40pm</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+</html>
